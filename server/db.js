@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('', {
+mongoose.connect('mongodb+srv://AashishSingh:<password>@cluster0.do3psoe.mongodb.net/  ', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true,
